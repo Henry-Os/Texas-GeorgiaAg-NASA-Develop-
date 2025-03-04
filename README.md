@@ -47,8 +47,9 @@ This is where limitations of the theory, model, science, etc should be briefly d
 Tell people where they can go to for help. Provide links to relevant documentation, chat rooms, email addresses, tutorials, etc. 
 
 
-# Wind Speed Data Source
-Daily maximum wind speed m/s datasets 
+## Data Sources
+
+#### Daily maximum wind speed m/s datasets: Climate_Regions_Max_Daily_Wind.csv, TX_Districts_Max_Daily_Wind.csv
 
 Acquired February 23, 2025 from https://app.climateengine.org/climateEngine via:
 
