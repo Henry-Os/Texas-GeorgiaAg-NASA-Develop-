@@ -23,15 +23,14 @@ What can this code do, how has it improved the way work is performed and decisio
 ### Languages
 What languages does it use, how do the users actually interface with the end product?  
 
-### Packages
-What other libraries or software packages does it rely on?  
-- List packages or software required for the code to work
+### Required Packages
+
 - R
-    - `rgdal`
-    - `timeseries`
+    - `tidyverse`
+    - `ggplot2`
 - Python
     - `xarray`
-- etc.
+
 
 ## Parameters
 Describe any steps needed for the script to run. It will help to specify which line in the code will need to be changed by the user based on their needs.  
