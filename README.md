@@ -50,6 +50,26 @@ Tell people where they can go to for help. Provide links to relevant documentati
 
 ## Data Sources
 
+#### Cotton Masks
+
+???? Henry made these need to get code from him
+
+#### SMAP (all .nc files in GA_SMAP and TX_SMAP folders)
+
+???? Given to us by Hung, how do we cite this or should we get the extraction code from him?
+
+Daily soil moisture datasets (aggregate from three-hourly SMAP L4)
+
+File format:  yyyymmdd.nc
+Temporal resolution/ coverage: daily / 2015-03-31 to 2024-12-31
+Spatial resolution/ coverage: 0.1 degree/ Texas and Georgia 
+Variable names:
+rootzonesm: Root Zone Soil Moisture ; unit: m^3/m^-3
+surfacesm: Surface Soil Moisture; unit: m^3/m^-3
+
+Citation:
+Reichle, R., De Lannoy, G., Koster, R. D., Crow, W. T., Kimball, J. S., Liu, Q., & Bechtold, M. (2022). SMAP L4 Global 3-hourly 9 km EASE-Grid Surface and Root Zone Soil Moisture Analysis Update, Version 7, Boulder, Colorado USA.[Dataset]. NASA National Snow and Ice Data Center Distributed Active Archive Center. https://doi.org/10.5067/LWJ6TF5SZRG3
+
 #### Daily maximum wind speed m/s datasets: Climate_Regions_Max_Daily_Wind.csv, TX_Districts_Max_Daily_Wind.csv
 
 Acquired February 23, 2025 from https://app.climateengine.org/climateEngine via:
