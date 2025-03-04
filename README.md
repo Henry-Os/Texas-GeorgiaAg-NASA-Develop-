@@ -27,7 +27,9 @@ What languages does it use, how do the users actually interface with the end pro
 
 - R
     - `tidyverse`
-    - `ggplot2`
+    - `sf`
+    - 'openxlsx'
+    - 'exactextractr'
 - Python
     - `xarray`
 
