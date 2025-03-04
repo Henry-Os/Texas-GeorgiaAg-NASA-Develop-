@@ -7,24 +7,24 @@
 
 **Team:** Lorryn Andrade (Project Lead), Nick Grener, Kelechi Igwe, Henry Osei  
 
-**Code Contact:** Name, [Email] (add email address that can be accessed longterm after DEVELOP)         
+**Code Contact:** Nick Grener, grener@gmail.com      
 
 ## Introduction  
-What motivated the creation of the code and how does the code address the problem? (1 paragraph, 3-5 sentences)  
+The purpose of this collection of scripts is to build and then analyze a table holding data representing vegetative indices, weather variables, and cotton quality data. In terms of temporal resolution, the hypothesized drivers/predictor variables - enhanced vegetation index, root zone soil moisture, growing degree days, precipitation, maximum wind speed - are recorded at the monthly level, while the response variables describing cotton quality are recorded at the annual crop year level. Spatially, all variables are aggregated to the level of National Agricultural Statistical Service (NASS) Districts.
 
 ## Applications and Scope   
-Where will the code be used, and to what extent?   
+The scope of this analysis is the years 2015 through 2024 and eight NASS districts that represent areas of significant cotton production in the US- three in Georgia (GA-70, GA-80, and GA-90) and five in Texas (TX-12, TX-21, TX-22, TX-60, TX-70). The code can be amended in the appropriate places if the used wishes to apply a comparable analysis to other regions/years, but note that not every data source used here is guaranteed to house the needed data for all years. For example, the Soil Moisture Active Passive radiometer launched and went online in 2015, so SMAP data is not available prior to that date. 
 
 ## Capabilities 
-What can this code do, how has it improved the way work is performed and decisions are made? 
+(What can this code do, how has it improved the way work is performed and decisions are made?)
 
 ## Interfaces 
+This code was produced in R Studio (for the R code) and Jupyter notebooks (for the Python code). 
 
 ### Languages
-What languages does it use, how do the users actually interface with the end product?  
+R and Python
 
 ### Required Packages
-
 - R
     - `tidyverse`
     - `sf`
@@ -35,19 +35,29 @@ What languages does it use, how do the users actually interface with the end pro
     - `xarray`
 
 ## Parameters
-Describe any steps needed for the script to run. It will help to specify which line in the code will need to be changed by the user based on their needs.  
+The code needs to be run in the following groupings, but within each group the order of the scripts does not matter:
 
-1. step 1  
-2. step 2 
-3. include examples 
+#### A. Extraction Scripts
+1. get_CottonQualityData.ipynb
+2. 
+
+#### B. Processing/Cleaning Scripts
+1. Wind Speed Processing.r  
+2. SMAP Processing.r
+3. GDD Processing.r
+4. Cotton Quality Processing.r
+5. 
+
+#### C. Analysis Scripts
+1.   
+2. 
+
 
 ## Assumptions, Limitations, & Errors 
-This is where limitations of the theory, model, science, etc should be briefly documented. If the tools only work for a specific scenario, say so.   
+(This is where limitations of the theory, model, science, etc should be briefly documented. If the tools only work for a specific scenario, say so.)   
 
 ## Support
-Tell people where they can go to for help. Provide links to relevant documentation, chat rooms, email addresses, tutorials, etc. 
-
+(Tell people where they can go to for help. Provide links to relevant documentation, chat rooms, email addresses, tutorials, etc.) 
 
 ## Acknowledgments
-Include acknowledgments of who helped develop the code.
-- Name (Institution)  
+-Manh-Hung Le (Hydrological Sciences Laboratory, NASA Goddard Space Flight Center)  
