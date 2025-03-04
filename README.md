@@ -28,8 +28,9 @@ What languages does it use, how do the users actually interface with the end pro
 - R
     - `tidyverse`
     - `sf`
-    - 'openxlsx'
-    - 'exactextractr'
+    - `openxlsx`
+    - `exactextractr`
+    - `lubridate`
 - Python
     - `xarray`
 
