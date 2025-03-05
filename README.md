@@ -31,6 +31,8 @@ R and Python
     - `openxlsx`
     - `exactextractr`
     - `lubridate`
+    - `terra`
+    - `tmap`
 - Python
     - `xarray`
 
