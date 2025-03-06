@@ -48,12 +48,12 @@ R and Python
 The code needs to be run in the following groupings, but within each group the order of the scripts does not matter:
 
 #### A. Extraction Scripts
-1. get_CottonQualityData_GA.ipynb
-2. get_CottonQualityData_TX.ipynb
+1. get_CottonQualityData.ipynb *in progress
+2. get_GRIDMET_data.ipynb *in progress
 
 #### B. Pre-processing Scripts
-1. (cotton masking script)
-2. (convert IMERG HDF5 to csv)
+1. (cotton masking script) *in progress
+2. convert_IMERG_HDF5_to_csv.ipynb *in progress
 
 #### C. Processing Scripts
 1. Wind Speed Processing.r  
