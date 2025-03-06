@@ -35,22 +35,34 @@ R and Python
     - `tmap`
 - Python
     - `xarray`
+    - `os`
+    - `pandas`
+    - `re`
+    - `requests`
+    - `chardet`
+    - `json`
+    - `io`
+    - `pickle`
 
 ## Parameters
 The code needs to be run in the following groupings, but within each group the order of the scripts does not matter:
 
 #### A. Extraction Scripts
-1. get_CottonQualityData.ipynb
-2. 
+1. get_CottonQualityData_GA.ipynb
+2. get_CottonQualityData_TX.ipynb
 
-#### B. Processing/Cleaning Scripts
+#### B. Pre-processing Scripts
+1. (cotton masking script)
+2. (convert IMERG HDF5 to csv)
+
+#### C. Processing Scripts
 1. Wind Speed Processing.r  
 2. SMAP Processing.r
 3. GDD Processing.r
 4. Cotton Quality Processing.r
 5. 
 
-#### C. Analysis Scripts
+#### D. Analysis Scripts
 1.   
 2. 
 
