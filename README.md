@@ -49,7 +49,7 @@ The code needs to be run in the following groupings, but within each group the o
 
 #### A. Extraction Scripts
 1. get_CottonQualityData.ipynb *in progress
-2. get_GRIDMET_data.ipynb *in progress
+2. get_GridMET_data.ipynb *in progress
 
 #### B. Pre-processing Scripts
 1. (cotton masking script) *in progress
