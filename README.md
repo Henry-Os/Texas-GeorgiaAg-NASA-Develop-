@@ -1,4 +1,4 @@
-# Project Short Title 
+# Texas & Georgia Agriculture
 **Project:** Texas & Georgia Agriculture    
 
 **Node:** Maryland - Goddard 
@@ -16,10 +16,10 @@ The purpose of this collection of scripts is to build and then analyze a table h
 The scope of this analysis is the years 2015 through 2024 and eight NASS districts that represent areas of significant cotton production in the US- three in Georgia (GA-70, GA-80, and GA-90) and five in Texas (TX-12, TX-21, TX-22, TX-60, TX-70). The code can be amended in the appropriate places if the used wishes to apply a comparable analysis to other regions/years, but note that not every data source used here is guaranteed to house the needed data for all years. For example, the Soil Moisture Active Passive radiometer launched and went online in 2015, so SMAP data is not available prior to that date. 
 
 ## Capabilities 
-(What can this code do, how has it improved the way work is performed and decisions are made?)
+Each script perform unique tasks including automating the extraction of environmental variable data using application programming interfaces (APIs), data cleaning, exploratory data analysis and visualization, and finally, development and deployment of multiple regression models. 
 
 ## Interfaces 
-This code was produced in R Studio (for the R code) and Jupyter notebooks (for the Python code). 
+All scripts were written in either R Studio (for the R code) and Jupyter notebooks (for the Python code) environments. 
 
 ### Languages
 R and Python
@@ -43,13 +43,16 @@ R and Python
     - `json`
     - `io`
     - `pickle`
+    - `h5py`
+    - `geopandas`
+    - `rasterio`
 
 ## Parameters
 The code needs to be run in the following groupings, but within each group the order of the scripts does not matter:
 
 #### A. Extraction Scripts
-1. get_CottonQualityData.ipynb *in progress
-2. get_GridMET_data.ipynb *in progress
+1. get_CottonQualityData_from_NASS.ipynb 
+2. get_GridMET_data.ipynb
 
 #### B. Pre-processing Scripts
 1. (cotton masking script) *in progress
@@ -63,15 +66,17 @@ The code needs to be run in the following groupings, but within each group the o
 5. 
 
 #### D. Analysis Scripts
-1.   
+1.   visualize_ModelResults
 2. 
 
 
 ## Assumptions, Limitations, & Errors 
-(This is where limitations of the theory, model, science, etc should be briefly documented. If the tools only work for a specific scenario, say so.)   
+Data from counties within districs were averaged, without considering any kind of weighting. For example, 10 km pixels of precipitation data from IMERG within a county were average without considering what percentage area of the 10 km pixels were contained within the county boundaries.    
 
 ## Support
-(Tell people where they can go to for help. Provide links to relevant documentation, chat rooms, email addresses, tutorials, etc.) 
+For support on working with HDF5Y precipitation files from IMERG, visit: https://gpm.nasa.gov/data/tutorials 
 
 ## Acknowledgments
 -Manh-Hung Le (Hydrological Sciences Laboratory, NASA Goddard Space Flight Center)  
+- Owen Kelly (Precipitation Processing System, NASA Goddard Space Flight Center)
+
