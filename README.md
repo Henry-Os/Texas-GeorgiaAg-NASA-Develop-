@@ -56,7 +56,7 @@ The code needs to be run in the following groupings, but within each group the o
 
 #### B. Pre-processing Scripts
 1. (cotton masking script) *in progress
-2. convert_IMERG_HDF5_to_csv.ipynb *in progress
+2. convert_IMERG_HDF5_to_csv.ipynb
 
 #### C. Processing Scripts
 1. Wind Speed Processing.r  
