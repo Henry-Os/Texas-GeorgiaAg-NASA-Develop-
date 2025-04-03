@@ -1,0 +1,12 @@
+﻿Indicator,Month,Variable,Correlation
+Length,7,GDD,0.58
+Reflectance,8,EVI,0.55
+Yellowness,8,Precip,-0.68
+Strength,8,RZSM,-0.56
+Uniformity,8,RZSM,-0.54
+Micronaire,9,GDD,0.54
+Trash,10,Precip,0.6
+Reflectance,10,Precip,-0.54
+Strength,10,RZSM,-0.51
+Trash,11,RZSM,0.6
+Reflectance,11,RZSM,-0.57
