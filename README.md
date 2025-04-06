@@ -7,7 +7,7 @@
 
 **Team:** Lorryn Andrade (Project Lead), Nick Grener, Kelechi Igwe, Henry Osei  
 
-**Code Contact:** Nick Grener, grener@gmail.com      
+**Code Contact:** Henry Osei, henryoseipoku77@gmail.com; Nick Grener, grener@gmail.com; Kelechi Igwe, igwekelechi.e@gmail.com
 
 ## Introduction  
 The purpose of this collection of scripts is to build and then analyze a table holding data representing vegetative indices, weather variables, and cotton quality data. The scripts automate the process of extraction various environmental variables and Cotton quality data for use in our modeling process. In terms of temporal resolution, the hypothesized drivers/predictor variables - enhanced vegetation index, root zone soil moisture, growing degree days, precipitation, maximum wind speed - are recorded at the monthly level, while the response variables describing cotton quality are recorded at the annual crop year level. Spatially, all variables are aggregated to the level of National Agricultural Statistical Service (NASS) Districts.
